@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'bold';
+    src: url('RubikMonoOne-Regular.ttf') format('ttf');
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:#002E48;
+    width:100%;
+    background-size: cover;
+    font-family:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid; */
+    /* place-items: center; */
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin:auto;
+    
+}
+
+.form{
+    background: #002E48;
+    width:80%;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    box-shadow: 2px 3px 10px #000000;
+    
+}
+.word{
+    line-height: 62px;
+    width:65%;
+}
+
+.picture{
+    background: black;
+    background: url("https://www.cryptocurrenciesnewz.com/wp-content/uploads/2021/11/ether.jpg");
+    background-size: cover;
+    background-position: center;
+    width:46%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    box-shadow: 2px 3px 10px #000000;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+h1{
+    font-size: 30px;
+    color:white
+}
+.inputs{
+    border-radius: 50px;
+    /* padding: 16px 145px; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 258px;
+    padding-left: 40px;
+    outline: 0;
+}
+.pass{
+    color:white;
+}
+
+.link1 ,.link3{
+    text-decoration: none;
+    color:orangered;
+}
+
+.link2{
+    text-decoration: none;
+    color:white;
+    background-color: #1852F2;
+    /* padding:7px 15px; */
+    border-radius: 7px;
+    text-align: center;
+    display:block;
+    width:194px;
+    margin: auto;
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size:17px;
+    color:white;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+p{
+    color:white;
+}
+
+.fa-user {
+    position:absolute;
+    color:black;
+    top:16rem;
+    left:30.5rem;
+}
+
+.fa-envelope{
+    position:absolute;
+    color:black;
+    top:20rem;
+    left:30.5rem;
+}
+
+.fa-lock{
+    position:absolute;
+    color:black;
+    top:24rem;
+    left:30.5rem;
+}
